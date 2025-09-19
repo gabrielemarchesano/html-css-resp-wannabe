@@ -133,13 +133,17 @@ img {
  @media screen and (max-width: 768px) {
     .container {
     width: 100%;
+    padding: 0 10px;
     }
  }
 
  @media screen and (max-width: 480px) {
     .container {
         width: 100%;
-        padding: 0;
+    }
+
+    .site-header {
+        padding: 0 3px;
     }
 
     .row {
@@ -152,6 +156,14 @@ img {
     }
 
     .steps .col {
+        width: 100%;
+    }
+
+    .why-us .col-left {
+        width: 100%;
+    }
+
+    .why-us .col-right {
         width: 100%;
     }
  }
