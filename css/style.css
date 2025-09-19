@@ -166,4 +166,15 @@ img {
     .why-us .col-right {
         width: 100%;
     }
+
+    .card {
+        margin-bottom: 20px;
+    }
  }
+
+/*  @media screen and (max-width: 1160px) {
+    .container {
+        transition: all 2s;
+    }
+    
+ } */
